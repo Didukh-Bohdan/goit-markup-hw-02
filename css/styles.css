@@ -40,10 +40,6 @@ ol {
   letter-spacing: 0.32px;
 }
 
-.nav-text:hover, .nav-textfocus {
-    color: #404bbf;
-}
-
 .nav {
   color: var(--NAVY-BLUE, #2e2f42);
   font-family: "Raleway", sans-serif;
@@ -55,25 +51,23 @@ ol {
   text-transform: uppercase;
 }
 
-.page-adress {
-  color: var(--SLATE, #434455);
-  font-family: Roboto;
-  font-size: 16px;
+.header-address {
   font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
 }
 
-.link-contact-link {
-  color: var(--SLATE, #434455);
-  /* Body */
-  font-family: Roboto;
+.header-contacts {
+  color: #434455;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.header-contacts:focus,
+.header-contacts:hover {
+  color: #404bbf;
 }
 
 .list {
