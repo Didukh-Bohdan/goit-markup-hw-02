@@ -18,14 +18,19 @@ ol {
   line-height: 1.17;
 }
 
+.logo-stidio {
+  color: #2e2f42;
+}
+
 .page-nav {
   color: var(--NAVY-BLUE, #2e2f42);
-  font-family: Roboto;
-  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 24px;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.03px;
+  text-transform: uppercase;
 }
 
 .page-adress {
