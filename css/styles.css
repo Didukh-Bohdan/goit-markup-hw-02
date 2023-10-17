@@ -95,12 +95,13 @@ ol {
   cursor: pointer;
 }
 .finger:focus,
-.finger:hover { background-color: #404bbf;}
-
+.finger:hover {
+  background-color: #404bbf;
+}
 
 .text-title-three {
   background-color: #f4f4fd;
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: #2e2f42;
   font-family: Roboto;
   font-size: 20px;
   font-style: normal;
@@ -131,78 +132,77 @@ ol {
   text-transform: capitalize;
 }
 
-.prof-story-info { 
-  background-color: #FFFFFF;
-
+.prof-story-info {
+  background-color: #ffffff;
 }
 
 .prof-name {
-color: var(--NAVY-BLUE, #2E2F42);
-text-align: center;
-font-family: Roboto;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: 24px; 
-letter-spacing: 0.4px;
+  color: var(--NAVY-BLUE, #2e2f42);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
 }
 
 .prof-work {
-color: var(--SLATE, #434455);
-text-align: center;
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; 
-letter-spacing: 0.32px;
+  color: var(--SLATE, #434455);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
 }
 
 .third section {
-  background: var(--CLOUD, #f4f4fd);
+  background: #F4F4FD;
+  line-height: 1.11;
 }
 
 .fourth-section {
-color: var(--NAVY-BLUE, #2E2F42);
-text-align: center;
-font-family: Roboto;
-font-size: 36px;
-font-style: normal;
-font-weight: 700;
-line-height: 40px; 
-letter-spacing: 0.72px;
-text-transform: capitalize;
+  color: var(--NAVY-BLUE, #2e2f42);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
 }
 
 .app-info {
-  background: #FFF;
+  background: #fff;
+  line-height: 1.11;
 }
 
 .service-info {
-  background: #FFF;
+  background: #fff;
 }
 
 .name-app {
-color: var(--NAVY-BLUE, #2E2F42);
-font-family: Roboto;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: 24px; 
-letter-spacing: 0.4px;
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
 }
 
 .project-info {
   color: var(--SLATE, #434455);
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; 
-letter-spacing: 0.32px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
 }
-
-
 
 .and-info {
   background-color: #2e2f42;
@@ -215,5 +215,5 @@ letter-spacing: 0.32px;
 }
 
 .logo-stidio-and {
-  color: #2e2f42;
+  color: #f4f4fd;
 }
