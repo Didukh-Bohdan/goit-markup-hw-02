@@ -27,7 +27,7 @@ ol {
   color: #2e2f42;
 }
 
-.header {
+.page-top {
   background: #fcfcfc;
 }
 
@@ -52,11 +52,11 @@ ol {
   text-transform: uppercase;
 }
 
-.header-address {
+.page-address {
   font-style: normal;
 }
 
-.header-contacts {
+.page-contacts {
   color: #434455;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -66,10 +66,8 @@ ol {
   letter-spacing: 0.02em;
 }
 
-.header-contacts:focus {
-  color: #404bbf;
-}
-.header-contacts:hover {
+.page-contacts:focus,
+.page-contacts:hover {
   color: #404bbf;
 }
 
@@ -88,7 +86,7 @@ ol {
   letter-spacing: 1.12px;
 }
 
-.cursor {
+.finger {
   background: #4d5ae5;
   font-weight: 500;
   line-height: 1.5;
@@ -96,12 +94,9 @@ ol {
   color: #ffffff;
   cursor: pointer;
 }
-.cursor:focus {
-  background-color: #404bbf;
-}
-.cursor:hover {
-  background-color: #404bbf;
-}
+.finger:focus,
+.finger:hover { background-color: #404bbf;}
+
 
 .text-title-three {
   background-color: #f4f4fd;
@@ -136,6 +131,89 @@ ol {
   text-transform: capitalize;
 }
 
+.prof-story-info { 
+  background-color: #FFFFFF;
+
+}
+
+.prof-name {
+color: var(--NAVY-BLUE, #2E2F42);
+text-align: center;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
+letter-spacing: 0.4px;
+}
+
+.prof-work {
+color: var(--SLATE, #434455);
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+letter-spacing: 0.32px;
+}
+
 .third section {
   background: var(--CLOUD, #f4f4fd);
+}
+
+.fourth-section {
+color: var(--NAVY-BLUE, #2E2F42);
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; 
+letter-spacing: 0.72px;
+text-transform: capitalize;
+}
+
+.app-info {
+  background: #FFF;
+}
+
+.service-info {
+  background: #FFF;
+}
+
+.name-app {
+color: var(--NAVY-BLUE, #2E2F42);
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
+letter-spacing: 0.4px;
+}
+
+.project-info {
+  color: var(--SLATE, #434455);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+letter-spacing: 0.32px;
+}
+
+
+
+.and-info {
+  background-color: #2e2f42;
+}
+
+.company {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
+
+.logo-stidio-and {
+  color: #2e2f42;
 }
